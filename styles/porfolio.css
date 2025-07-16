@@ -47,6 +47,19 @@
     font-size: 18px;
     font-weight: 400;
 }
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;}
+    
+.skill{
+    padding: 100px 30px 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
 
 
 /* Nav styles */
@@ -111,13 +124,17 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 114.5px;
+    margin-bottom: 114.5px;
+}
 
 /* about styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 114.5px;
+    
 }
 .item-description{
     font-size: 20px;
@@ -126,4 +143,15 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+}
+/* Resume Section Styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
 }
